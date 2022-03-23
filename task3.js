@@ -1,6 +1,6 @@
-counter = 0;
+var counter = 0;
 
 function incrementCounter() {
     counter++;
     document.getElementById('mcount').innerText = counter;
-};
+}
