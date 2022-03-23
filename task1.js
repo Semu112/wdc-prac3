@@ -1,4 +1,4 @@
 function showTime(){
     date = new Date();
-    document.getElementById('current_time').innerText = date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear();
+    document.getElementById('current_time').innerText = date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear() + " " date.getHours() + ":" date.getMinutes();
 };
