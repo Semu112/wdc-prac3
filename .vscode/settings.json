@@ -1,0 +1,8 @@
+{
+    "eslint.codeActionsOnSave.rules": [
+    ],
+
+    "rules": {
+        "require-jsdoc": "off",
+    }
+}
