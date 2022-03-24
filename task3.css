@@ -19,6 +19,11 @@ body {
     width: 240px;
 }
 
+.post-time {
+    font-weight: bold;
+    color: grey;
+}
+
 h1,h2,h3 {
     font-family: serif;
 }

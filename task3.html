@@ -16,15 +16,18 @@
             <button class="right">MENU</button>
             <h1>Part 3 - Javascript Playground</h1>
             <div id="mcount" onmouseover="incrementCounter()"></div>
-            <div id="posts"></div>
+            <div id="posts">
+                <div class="post-time"></div>
+                <div class="post-content"></div>
+            </div>
             <hr />
-            <textarea rows="4" cols="60">Type your text here...</textarea>
+            <textarea rows="4" cols="60" id="textArea">Type your text here...</textarea>
             <br />
             <div class="controls left">
                 <input type="number" name="quantity" value="1" /><br />
                 <input type="radio" name="color" value="blue" /> Blue<br />
                 <input type="radio" name="color" value="red" /> Red<br />
-                <button>Post</button>
+                <button onclick="post()">Post</button>
             </div>
             <div class="controls left">
                 <input type="range" name="visible" min="1" max="10" value="10"/><br />
