@@ -3,6 +3,11 @@ function hideMain(){
     document.getElementById("menu").style.display = "inline";
 }
 
+function backToMenu(){
+    document.getElementById("main").style.display = "inline";
+    document.getElementById("menu").style.display = "none";
+}
+
 
 var counter = 0;
 
