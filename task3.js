@@ -1,3 +1,9 @@
+function hideMain(){
+    document.getElementById("main").style.display = "none";
+    document.getElementById("menu").style.display = "inline";
+}
+
+
 var counter = 0;
 
 function incrementCounter() {
