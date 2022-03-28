@@ -1,3 +1,7 @@
+function changeBackgroundColour(){
+    document.body.style.background = document.getElementById("backgroundColor").value;
+}
+
 function hideMain(){
     document.getElementById("main").style.display = "none";
     document.getElementById("menu").style.display = "inline";
