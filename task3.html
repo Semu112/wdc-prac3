@@ -28,9 +28,9 @@
                 <button onclick="post()">Post</button>
             </div>
             <div class="controls left">
-                <input type="range" name="visible" min="1" max="10" value="10"/><br />
-                <input type="checkbox" name="style" value="bold" /> Bold<br />
-                <input type="checkbox" name="style" value="italic" /> Italic<br />
+                <input type="range" id = "slider" name="visible" min="1" max="10" onchange="hideSomePosts()"/><br />
+                <input type="checkbox" id = "bold" name="style" value="bold" /> Bold<br />
+                <input type="checkbox" id = "italics" name="style" value="italic" /> Italic<br />
                 <select>
                     <option disabled selected value="-1">Choose a post to reply to</option>
                 </select>
